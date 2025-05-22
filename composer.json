@@ -1,0 +1,17 @@
+{
+  "name": "xcvzmoon/its-just-php",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Xcvzmoon\\ItsJustPhp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mon Albert Gamil",
+      "email": "mrgamilmonalbert@gmail.com"
+    }
+  ],
+  "require": {}
+}

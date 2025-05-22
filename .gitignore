@@ -1,0 +1,52 @@
+# Composer dependencies
+/vendor/
+composer.lock  # Optional: keep if you want strict dependency version control.
+               # Remove this line if you want `composer install` to always install the latest compatible versions.
+
+# Environment variables
+.env
+.env.local
+.env.*.local  # Matches .env.dev.local, .env.prod.local, etc.
+
+# IDE-specific files
+.idea/                     # PhpStorm / IntelliJ IDEA
+.vscode/                   # VS Code
+.sublime-project           # Sublime Text project files
+.sublime-workspace         # Sublime Text workspace files
+.DS_Store                  # macOS specific hidden files
+Thumbs.db                  # Windows specific hidden files
+*.swp                      # Vim swap files
+*.bak                      # Backup files
+
+# Common cache/log directories
+/var/cache/
+/var/log/
+/tmp/
+/cache/
+/logs/
+*.log
+*.sqlite  # For SQLite databases used for cache or logs
+
+# Build/Test artifacts
+/build/
+/web/assets/compiled/ # If you compile frontend assets here
+/node_modules/        # If you have Node.js dependencies for frontend builds (e.g., npm install)
+.phpunit.result.cache # PHPUnit cache
+.php-cs-fixer.cache   # PHP-CS-Fixer cache
+.phpstan.cache        # PHPStan cache
+
+# Uploaded files
+/public/uploads/      # Or whatever directory you use for user-uploaded content
+
+# Runtime files
+*.phar
+*.phar.gz
+
+# Configuration files that are environment-specific (if not using .env)
+# config/database.php  # Example: if database credentials are hardcoded here per environment
+# config/app.php       # Example: if app keys or debug modes are hardcoded here per environment
+
+# Docker-related files (if used)
+.dockerignore
+.docker-compose.yml # Only if it contains sensitive info or is generated
+.docker/             # Some docker related files
