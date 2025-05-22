@@ -4,7 +4,9 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Xcvzmoon\\ItsJustPhp\\": "src/"
+      "": "src/",
+      "Database\\": "src/database/",
+      "Database\\Dialects": "src/database/dialects/"
     }
   },
   "authors": [
