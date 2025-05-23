@@ -4,9 +4,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "": "src/",
-      "Database\\": "src/database/",
-      "Database\\Dialects": "src/database/dialects/"
+      "App\\": "app/"
     }
   },
   "authors": [
@@ -15,5 +13,8 @@
       "email": "mrgamilmonalbert@gmail.com"
     }
   ],
-  "require": {}
+  "require": {},
+  "config": {
+    "optimize-autoloader": true
+  }
 }
