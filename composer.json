@@ -16,5 +16,8 @@
   "require": {},
   "config": {
     "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": "php public/index.php"
   }
 }
